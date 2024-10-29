@@ -1,6 +1,6 @@
 # Mauju
 
-This repository is the foundation for all upcoming projects within our company. It provides a well-structured template to ensure that every project follows the same standards, making development smoother and more efficient.
+This project is a technical test designed for the Frontend Developer position at Mauju Company. The goal of this test is to assess your skills in building responsive and user-friendly web applications using modern technologies and best practices.
 
 ## Table of Contents
 
