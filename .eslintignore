@@ -1,0 +1,7 @@
+dist/
+jest.config.mjs
+jest.config.ts
+postcss.config.js
+setup-jest.ts
+tailwind.config.js
+# __test__
