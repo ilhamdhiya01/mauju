@@ -36,6 +36,16 @@ Follow these steps to set up the project locally:
 
 This will download and install all the necessary packages.
 
+## Run local
+
+To run on local device:
+
+```bash
+yarn dev
+```
+
+This will run application on local device.
+
 ## Build
 
 To create an optimized production build of the project, run the following command:
@@ -45,6 +55,16 @@ yarn build
 ```
 
 This will bundle the application and make it ready for deployment.
+
+## Start Build Result
+
+To run result after build:
+
+```bash
+yarn start
+```
+
+This will run result build.
 
 ## Code Style
 
