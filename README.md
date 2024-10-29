@@ -26,7 +26,7 @@ Follow these steps to set up the project locally:
 
    ```bash
    git clone https://github.com/ilhamdhiya01/mauju.git
-   cd gejayan
+   cd mauju
    ```
 
 2. **Install dependencies using Yarn**:
