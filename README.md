@@ -1,4 +1,4 @@
-# Gejayan
+# Mauju
 
 This repository is the foundation for all upcoming projects within our company. It provides a well-structured template to ensure that every project follows the same standards, making development smoother and more efficient.
 
