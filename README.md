@@ -7,8 +7,6 @@ This repository is the foundation for all upcoming projects within our company. 
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Build](#build)
-- [Test](#test)
-- [Storybook](#storybook)
 - [Code Style](#code-style)
 - [Changelog](#changelog)
 
@@ -27,7 +25,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone http://gitlab.runsystemdev.com/runsystem_dev/components/sample/gejayan.git
+   git clone https://github.com/ilhamdhiya01/mauju.git
    cd gejayan
    ```
 
@@ -47,26 +45,6 @@ yarn build
 ```
 
 This will bundle the application and make it ready for deployment.
-
-## Test
-
-You can run the test suite using the following command:
-
-```bash
-yarn test
-```
-
-This will execute all unit and integration tests, ensuring the code behaves as expected.
-
-## Storybook
-
-We use Storybook to develop and showcase isolated UI components. To start Storybook locally, run:
-
-```bash
-yarn storybook
-```
-
-This will launch Storybook in your default browser, providing a visual overview of the components.
 
 ## Code Style
 
