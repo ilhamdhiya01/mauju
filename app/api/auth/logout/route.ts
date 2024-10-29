@@ -5,7 +5,6 @@ import { NextResponse } from 'next/server';
 export const POST = async () => {
   try {
     const session = await getServerSideSession();
-    console.log('session', session);
 
     session.destroy();
 

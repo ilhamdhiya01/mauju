@@ -6,7 +6,6 @@ import { Poppins } from 'next/font/google';
 import '@styles/globals.css';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import ToastProvider from '@components/ui/ToastProvider';
-import Navbar from '@components/shared/Navbar';
 
 const poppins = Poppins({
   weight: ['300', '400', '500', '600', '700'],
@@ -24,7 +23,6 @@ const AppLayout = ({ children }: AppLayoutProps) => (
     <body className={poppins.className}>
       <QueryClientProvider client={queryClient}>
         <ToastProvider />
-        <Navbar />
         <main className="relative box-border">{children}</main>
       </QueryClientProvider>
     </body>

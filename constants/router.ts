@@ -1,5 +1,5 @@
-export const URL_API_BE = 'https://reqres.in/api';
-export const URL_API_BE_PRODUCT = 'https://api.escuelajs.co/api/v1';
+export const { URL_API_BE } = process.env;
+export const { URL_API_BE_PRODUCT } = process.env;
 export const PATH_APINEXT = '/api';
 
 export const PATH_PAGE_AUTH = '/auth';
