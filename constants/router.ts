@@ -4,6 +4,7 @@ export const PATH_APINEXT = '/api';
 
 export const PATH_PAGE_AUTH = '/auth';
 export const PATH_PAGE_AUTH_LOGIN = `${PATH_PAGE_AUTH}/login`;
+export const PATH_PAGE_AUTH_REGISTER = `${PATH_PAGE_AUTH}/register`;
 export const PATH_PAGE_DASHBOARD = '/dashboard';
 
 export const PATH_API_NEXT_AUTH = `${PATH_APINEXT}/auth`;

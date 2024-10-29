@@ -10,7 +10,10 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useMutation } from 'react-query';
 import { useRouter } from 'next/navigation';
-import { PATH_PAGE_DASHBOARD } from '@constants/router';
+import {
+  PATH_PAGE_AUTH_REGISTER,
+  PATH_PAGE_DASHBOARD,
+} from '@constants/router';
 
 type LoginFormType = {
   email: string;
@@ -109,6 +112,7 @@ const LoginForm = () => {
             variant="ghost"
             size="small"
             noMargin
+            onClick={() => router.push(PATH_PAGE_AUTH_REGISTER)}
           />
         </form>
       </div>
